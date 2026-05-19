@@ -20,7 +20,7 @@ header {
     padding-inline: 72px;
     align-items: center;
     gap: 46px;
-    margin-bottom: 172px;
+    margin-bottom: 220px;
     
     ul {
         display: flex;
@@ -43,4 +43,26 @@ header {
 main {
     width: fit-content;
     margin-inline: auto;
+
+    h1 {
+        font-size: 48px;
+        line-height: 125%;
+        color: #e1e1e6;
+        margin-bottom: 24px;
+    }
+
+    a {
+        border: 2px solid #fff;
+        display: block;
+        width: fit-content;
+        margin-inline: auto;
+        padding: 12px 32px;
+        border-radius: 5px;
+        font-size: 14px;
+        line-height: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+    }
 }
