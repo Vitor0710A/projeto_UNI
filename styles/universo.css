@@ -20,9 +20,10 @@ header {
     padding-inline: 72px;
     align-items: center;
     gap: 46px;
-    margin-bottom: 220px;
+    margin-bottom: 64px;
     
     ul {
+
         display: flex;
         list-style: none;
         gap: 46px;
@@ -40,3 +41,7 @@ header {
     }
 }
 
+main {
+    color: #e1e1e6;
+    margin-left: 102px;
+}
